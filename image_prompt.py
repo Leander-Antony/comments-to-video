@@ -9,9 +9,8 @@ def generate_prompt_for_comment(comment, position):
     system_prompt = (
     "You're a creative text to image prompt maker in a single line"
     "Given a funny YouTube comment from a Sidemen video, turn it into a short, dramatic, and hilarious image prompt. "
+    "ignore any names"
     "Make the scene feel epic and cinematic, exaggerating the moment. "
-    "It must always take place in a surreal, post-apocalyptic carnival wasteland with broken rides, neon lights, and ruined games. "
-    "Do not include any real names. "
     "Keep it short, funny, and visual — perfect for animation. "
     "\n\nFormat exactly like:\nPrompt: <your prompt here>\n\n"
     "Do not include any extra text."
