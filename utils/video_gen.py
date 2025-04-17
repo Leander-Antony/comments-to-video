@@ -22,4 +22,4 @@ def generate_video(prompt, filename="generated_video.mp4", seed=0, num_frames=24
     print(f"Video saved to: {target_path}")
     return target_path
 
-generate_video("a cyberpunk samurai walking in the rain", filename="samurai_rain.mp4")
+# generate_video("a cyberpunk samurai walking in the rain", filename="samurai_rain.mp4")

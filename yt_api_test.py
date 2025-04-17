@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 import re
 
-API_KEY = ''
+API_KEY = 'AIzaSyDvD_4PHCpc1_bKRiyjPh3C-34MyTylBA0'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def get_video_id(url):
@@ -37,8 +37,8 @@ def get_all_comments(video_url, max_comments=500):
 
     return comments
 
-yt_link = "https://www.youtube.com/watch?v=Ws79ig1epEQ"
-all_comments = get_all_comments(yt_link, max_comments=1000)
+yt_link = "https://www.youtube.com/watch?v=R3rG6Aiwdho"
+all_comments = get_all_comments(yt_link, max_comments=2000)
 
 top_comments = sorted(all_comments, key=lambda x: x["likes"], reverse=True)[:50]
 
