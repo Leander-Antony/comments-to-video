@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 import re
 
-API_KEY = 'AIzaSyDvD_4PHCpc1_bKRiyjPh3C-34MyTylBA0'
+API_KEY = ''
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 def get_video_id(url):
