@@ -3,7 +3,7 @@ import pandas as pd
 import re
 import time
 
-API_KEY = 'AIzaSyDvD_4PHCpc1_bKRiyjPh3C-34MyTylBA0'
+API_KEY = ''
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 video_urls = [
